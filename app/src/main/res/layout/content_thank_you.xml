@@ -16,6 +16,13 @@
         android:id="@+id/ThankyouTV"
         android:textColor="@color/colorAccent"
         android:text="Thank You!!!"/>
-
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/feedbackRecyclerView"/>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

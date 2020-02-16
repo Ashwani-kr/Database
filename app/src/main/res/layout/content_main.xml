@@ -48,7 +48,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Student"
-                            android:id="@+id/StudentRB"
+                            android:id="@+id/studentRB"
                             />
                         <RadioButton
                             android:layout_width="wrap_content"
@@ -68,6 +68,7 @@
                     android:layout_height="wrap_content"
                     android:text="Rating"/>
                 <RatingBar
+                    android:id="@+id/feedbackRB"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:max="5"/>
@@ -78,6 +79,7 @@
                     android:layout_height="wrap_content"
                     android:text="Suggestions"/>
                 <EditText
+                    android:id="@+id/suggestionET"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:minLines="5"
@@ -89,6 +91,7 @@
                     android:layout_height="wrap_content"
                     android:text="Enter Age: "/>
                 <SeekBar
+                    android:id="@+id/ageSB"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:min="20"
